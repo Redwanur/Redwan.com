@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="Images/Favicon.png">
+    <title>Find Redwan.com</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg text-white navbar-dark py-2 fixed-top " id="navr">
+        <div class="container">
+            <a href="#" id="Dev_Des" class="navbar-profession text-light fs-5">DEVELOPER And designer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a href="#aboutme" class="nav-link"><h6>ABOUT</h6></a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="#others" class="nav-link"><h6>OTHERS</h6></a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link"><h6>SKILLS</h6></a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link"><h6>FAQ</h6></a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactme" class="nav-link"><h6>CONTACT</h6></a>  
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Showcase -->
+    <section class="p-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="showcase">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify content-between">
+                <div>
+                   <span class="text-white">
+                    <h1 class="pt-5" id="name">Hi, I'm Redwan</h1>
+                    <h3>I'm a <span class="text-primary">
+                        full stack web developer and designer.
+                    </span></h3>
+                    <p class="pt-4">KNOW ABOUT ME</p>
+                   </span>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="Images/DEV1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- About Me -->
+    <section class="bg-white p-5" id="aboutme">
+        <div class="container">
+            <div class="align-items-center px-2">
+                <h2 class="fw-bold text-center" id="aboutmehead">ABOUT ME</h2>
+                <hr>
+                <p class="fs-5 text-center">Hey there!. Welcome to my website, this is me Redwanur Rahaman. I'm a high school student. Though I'm 16 years old, I have tried to make my own web portal. Also, I have other skills like object oriented programming, banner & thumbnail designing, video editing etc. I'm a young software and web developer. Also have plans to create a startup in future. I am a casual gamer.</p>
+                <br>
+                <p class="fs-5 text-center">Enjoy !</p>
+            </div>
+        </div>
+    </section>
+    <!--Blogs/Boxes-->
+    <section class="p-5 text-white" id="others">
+        <div class="container">
+            <h2 class="fw-bold text-center" id="othershead">OTHERS</h2>
+            <hr>
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card text-dark" id="blog_coding">
+                        <div class="h1 mb-1">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb-3" id="codinghead">
+                            Coding
+                            <hr>
+                        </h3> 
+                        <p class="card-text mb-3">
+                            Back in 2018 when I was in Grade 6, I learned my first programming language, which was scratch. Then I 
+                            moved into object oriented programming started with C. Although I'm not quite
+                            good at. Moving on, I started learning python(BASIC), arduino(INTERN LVL), and much more. Then I started learning C++ in object oriented sector. I
+                            made small <a class="text-white" href="#projects">projects</a> and solving problems using C++. Currently learning algorithms and datastuture.
+                        </p>
+                        <hr>
+                        <a href="https://en.wikipedia.org/wiki/Computer_programming" class="btn"> Read More <i class="bi bi-arrow-right-circle"></i></a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-dark" id="blog_editing">
+                        <div class="h1 mb-1">
+                            <i class="bi bi-brush"></i>
+                        </div>
+                        <h3 class="card-title mb-3" id="editinghead">
+                            Editing
+                            <hr>
+                        </h3>
+                        <p class="card-text mb-3 ">
+                            I love designing. It includes logo designing, banner designing, graphic designing, editing images, thumbnail designing and 
+                            much more susing <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a> and <a href="https://www.adobe.com/products/illustrator.html">Illustrator.</a>
+                            I'm not professional in this sector but have experience of 6-8 months
+                        </p>
+                        <hr>
+                        <a href="https://en.wikipedia.org/wiki/Video_editing" class="btn">Read More <i class="bi bi-arrow-right-circle"></i></a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-dark" id="blog_school">
+                        <div class="h1 mb-1">
+                            <i class="bi bi-newspaper"></i>
+                        </div>
+                        <h3 class="card-title mb-3" id="schoolhead">
+                            Student
+                            <hr>
+                        </h3>
+                        <p class="card-text mb-3">
+                            I completed my SS&C examination from Scholars School & College. Now I am focusing on my college studies. I am participlated in competitions like <a href="https://www.cscongress.org">CS Congress</a>, <a href="https://bangabandhuolympiad.com">BBROLYM</a>, <a href="https://ftmpc.nditc.org">FTMPC</a>, <a href="https://nhspc.toph.co">NHSPC</a> math
+                            olympiads, science olympiads, robotics olympiads and many other national level contests and events. It has been a great privilege to be a part of these events.
+                        </p>
+                        <hr>
+                        <a href="https://scholars.edu.bd" class="btn">Read More <i class="bi bi-arrow-right-circle"></i></a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-dark" id="blog_gaming">
+                        <div class="h1 mb-1">
+                            <i class="bi bi-controller"></i>
+                        </div>
+                        <h3 class="card-title mb-3" id="gaminghead">
+                            Gaming
+                            <hr>
+                        </h3>
+                        <p class="card-text mb-3">
+                            Gaming is one of the things that entertains me so much. I am not a hardcore or a casual gamer. Use to play FPS games, Tactical shooting games, CO-OPs,
+                            PVPs, have a youtube channel sometimes upload gameplay videos.
+                        </p>
+                        <hr>
+                        <a href="https://www.youtube.com/channel/UCdDBmx99C_yf-axdjjNHYSQ" class="btn">Read More <i class="bi bi-arrow-right-circle"></i></a>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+            </div>
+        </div>
+    </section>
+    <!-- Learn Section-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="Images/2.(Fundamentals).svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h1 id="thiswebhead">This Website</h1>
+                    <p class="lead" id="thiswebtext1">
+                        This website is made of HTML, CSS & Bootstrap. 
+                    </p>
+                    <p id="thiswebtext2">That means it is responsive and can viewed on any device that you want to. Using Bootstrap is very easy. I have used it in my backend web dev.</p>
+                    <a href="https://blog.getbootstrap.com" class="btn btn-light mt-3" id="thiswebtext3"><i class="bi bi-chevron-right"></i> Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Learn Section 2 -->
+    <section class="p-5 text-light" id="learn2">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h1 id="elementshead">Elements</h1>
+                    <p class="lead" id="elementstext1">
+                        After using HTML, CSS & Bootstrap in backend web dev, I focused on frontend dev using React And Javascript.
+                    </p>
+                    <p id="elementstext2">React makes it painless to create interactive UIs. Design simple views as you wish. It can also render on the server using Node and power mobile apps using React Native.</p>
+                    <a href="https://reactjs.org" class="btn btn-light mt-3" id="elementstext3"><i class="bi bi-chevron-right"></i> Read More</a>
+                </div>
+                <div class="col-md">
+                    <img src="Images/3.(React Replacement).jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills-->
+    <section class="p-5" id="skills">
+        <div class="container">
+            <h2 class=" fw-bold text-center text-white" id="myskillshead">
+                MY SKILLS
+                <hr>
+            </h2>
+            <p class="lead text-center text-white mb-5" id="myskillstext1">I Have These Skills Working As Developer And Designer In The Industry</p>
+            <div class="row g-4">
+                <div class="cod-md-6 col-lg-3 text-dark">
+                    <div class="card" id="skill_card_cpp">
+                        <div class="card-body text-center"> 
+                            <div class="card" id="cppheadcard">
+                                <h3 class="text-center fw-bold text-dark">
+                                    C + +
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-text text-center lead">
+                            With 2 and 1/2 years of experience in object oriented programming I can now solve problems and develop softwares using <strong>C and C++.</strong>I have done projects with small teams in different institution.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="cod-md-6 col-lg-3">
+                    <div class="card" id="skill_card_photoshop">
+                        <div class="card-body text-center">
+                            <div class="card" id="photoshopheadcard">
+                                <h3 class="text-center fw-bold text-dark">
+                                    PHOTOSHOP
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-text text-center lead">
+                            With 1/2 years of experience using photoshop I can design thumbnail, banners, logo's.Not have design business cards, but wanna try it. I have done projects with small teams in different institution.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="cod-md-6 col-lg-3">
+                    <div class="card" id="skill_card_premierepro">
+                        <div class="card-body text-center">
+                            <div class="card" id="premiereheadcard">
+                                <h3 class="text-center fw-bold text-dark">
+                                    PREMIERE PRO
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-text text-center lead">
+                            With 1/2 years of experience using premiere pro I can edit videos, create animations, intro templates(NOT TOO FANCY) etc. I have done projects with small teams in different institution.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="cod-md-6 col-lg-3">
+                    <div class="card" id="skill_card_webdev">
+                        <div class="card-body text-center">
+                            <div class="card" id="webdevheadcard">
+                                <h3 class="text-center fw-bold text-dark">
+                                    WEB DEV
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-text text-center lead">
+                            With 3 months of experience in web developing, I can develope a portfolio using HTML, CSS, Bootstrap, Javascript and React. In past, have worked with UI based system like wordpress.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <hr class="text-white">
+            </div>
+        </div>
+    </section>
+    <!-- Faq -->
+    <section class="p-5" id="faq">
+        <div class="container">
+            <h2 class="fw-bold text-center" id="faqhead">FREQUENTLY ASKED QUESTIONS</h2>
+            <hr>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Where Do I Live ?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Currently, I'm living in <a href="https://en.wikipedia.org/wiki/Dhaka">Dhaka, Bangladesh.</a></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Which School I'm currently reading in ?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">I'm reading in <a href="https://scholars.edu.bd">Scholars School & College</a> in class 9. It is one of the best English Version school in Bangladesh.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Start of programming in my life !
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Well, I'm learning programming since I was in class 6. My first language was C. Although currently I'm not quit good in it rather than C++. Also quit a bit familiar with python. And thanks to <a href="http://bdinnovation.academy">Bangladesh Innovation Academy</a>, <a href="https://www.facebook.com/MASLabbd/">MASLab</a> and <a href="https://www.bdosn.org">BDOSN</a> to help me to get here.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Have I done any kind of Job / Experience Of Any Job or Work ?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Well, until today I have no experience of working in an organization but have plans to start a tech startup in future.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            What is Quant MicroSystems ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Quant MicroSystems Inc (Q.M.S) is a tech startup initiated by me. It will be launched in 2024.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Who are M7 Media & Technologies?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">M7 Media Group is also a tech startup created by me. It focuses on 7 types of media - editing, designing, game development, media, web development, digital marketing and consultancy.</div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!--Projects-->
+    <section class="p-5" id="projects">
+        <br>
+        <div class="container">
+            <h2 class="text-center text-white fw-bold" id="projechead">
+                PROJECTS & WORKLOADS
+                <hr>
+            </h2>
+            <p class="lead text-center text-white mb-2" id="projecttext1">View All My Works & Projects</p>
+            <div class="col-md text-center mb-4">
+                <img src="Images/6.jpg" class="img-fluid" alt=" ">
+            </div>
+        <div class="row g-4">
+            <div class="cod-md-6 col-lg-3">
+                <div class="card" id="project_btn_cpp">
+                    <h3 class="card-title mb-2 text-center">
+                        <a href="" class="btn"><strong>C + +</strong></a>
+                    </h3>
+                </div>
+            </div>
+            <div class="cod-md-6 col-lg-3">
+                <div class="card" id="project_btn_photoshop">
+                    <h3 class="card-title mb-2 text-center">
+                        <a href="" class="btn"><strong>PHOTOSHOP</strong></a>
+                    </h3>
+                </div>
+            </div>
+            <div class="cod-md-6 col-lg-3">
+                <div class="card bg-primary" id="project_btn_premiere">
+                    <h3 class="card-title mb-2 text-center">
+                        <a href="" class="btn"><strong>PREMIERE PRO</strong></a>
+                    </h3>
+                </div>
+            </div>
+            <div class="cod-md-6 col-lg-3">
+                <div class="card" id="project_btn_otherwebdev">
+                    <h3 class="card-title mb-2 text-center">
+                        <a href="" class="btn"><strong>OTHER WEB DEVS</strong></a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <!--Contact-->
+    <section class="p-5" id="contactme">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h1 class="text-center mb-2 fw-bold" id="contactinfohead">
+                        CONTACT INFO
+                    </h1>
+                    <hr>
+                    <ul class="list-group list-group-flush lead" id="contacttext">
+                        <li class="list-group-item">
+                            <span class="fw-bold">
+                                Main Location:
+                            </span> Dhanmondi, Dhaka-1205, Bangladesh
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">
+                                Phone Number:
+                            </span> +8801790390422
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">
+                                Contact E-mail:
+                            </span> redwanur2005@gmail.com
+                        </li>
+                        <li class="list-group-item">
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Icons-->
+    <section class="pb-4">
+        <div class="container">
+            <sdiv class="row">
+                <div class="col-md pt-4 text-dark">
+                    <a href="https://www.facebook.com/redwanur.rahaman.77/" target="_blank"><h1><i class="bi bi-facebook"></i></h1></a>
+                </div>
+                <div class="col-md pt-4">
+                    <a href="https://www.instagram.com/redwan.exe/" target="_blank" ><h1><i class="bi bi-instagram"></i></h1></a>
+                </div>
+                <div class="col-md pt-4">
+                    <a href="https://www.youtube.com/channel/UCdDBmx99C_yf-axdjjNHYSQ " target="_blank"><h1><i class="bi bi-youtube"></i></h1></a>
+                </div>
+                <div class="col-md pt-4">
+                    <a href="https://www.twitch.tv/r3deon" target="_blank"><h1><i class="bi bi-twitch"></i></h1></a>
+                </div> 
+                <div class="col-md pt-4">
+                    <a href="http://"><h1><i class="bi bi-twitter"></i></h1></a>
+                </div>
+                <div class="col-md pt-4">
+                    <a href="https://github.com/Redwanur" target="_blank"><h1><i class="bi bi-github"></i></h1></a>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <footer class="text-center text-light position-relative p-1" id="foot">
+        <div class="container">
+            <p>Contents Licensed Under CC; 2023 M7 Media & Technologies</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-2 pr-5">
+                <i class="bi bi-arrow-up-circle h4"></i>
+            </a>
+        </div>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoicmVkb25lOSIsImEiOiJja3JvazU3Nm8wYnRwMm5wZ3I5dHBibXA1In0.6I4J-JFlsFI5LYcGqT-MbQ';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.06982, 42.35725],
+        zoom: 18,
+        });
+    </script>
+</body>
+</html>

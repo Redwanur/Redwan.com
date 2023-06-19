@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&family=Outfit&family=Lora&display=swap');
+body::before{
+    display: block;
+    content:' ';
+    height: 40px;
+}
+#showcase{
+    background-color: black;
+}
+#others{
+    background-color: black;
+}
+#skills{
+    background-color: black;
+}
+#projects{
+    background-color: black;
+}
+/* Navbar */
+#name{
+    font-family: 'Raleway', sans-serif;
+}
+#Dev_Des{
+    font-family: 'Lora', sans-serif;
+}
+#navmenu{
+    font-family: 'Montserrat', sans-serif;
+}
+#navr{
+    background-color: black;
+}
+/*About Me */
+#aboutmehead{
+    font-family: 'Raleway', sans-serif;
+}
+/* Others */
+#othershead{
+    font-family: 'Raleway', sans-serif;
+}
+/* Blogs/Boxes */
+#codinghead{
+    font-family: 'Raleway', sans-serif;
+}
+#blog_coding{
+    background-color:darkorange;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+}
+#editinghead{
+    font-family: 'Raleway', sans-serif;
+}
+#blog_editing{
+    background-color: skyblue;
+    display:flex;
+    font-family: 'Outfit', sans-serif;
+}
+#schoolhead{
+    font-family: 'Raleway', sans-serif;
+}
+#blog_school{
+    background-color:green;
+    display:flex;
+    font-family: 'Outfit', sans-serif;
+}
+#gaminghead{
+    font-family: 'Raleway', sans-serif;
+}
+#blog_gaming{
+    background-color: mediumslateblue;
+    display:flex;
+    font-family: 'Outfit', sans-serif;
+}
+/* This Website */
+#thiswebhead{
+    font-family: 'Raleway', sans-serif;
+}
+#thiswebtext1{
+    font-family: 'Outfit', sans-serif;
+}
+#thiswebtext2{
+    font-family: 'Outfit', sans-serif;
+}
+#thiswebtext3{
+    font-family: 'Outfit', sans-serif;
+}
+/*Learn Section 2*/
+#learn2{
+    background-color:black;
+    display:flex;
+}
+#elementshead{
+    font-family: 'Raleway', sans-serif;
+}
+#elementstext1{
+    font-family: 'Outfit', sans-serif;
+}
+#elementstext2{
+    font-family: 'Outfit', sans-serif;
+}
+#elementstext3{
+    font-family: 'Outfit', sans-serif;
+}
+/* Skills */
+#myskillshead{
+    font-family: 'Raleway', sans-serif;
+}
+#myskillstext1{
+    font-family: 'Outfit', sans-serif;
+}
+#cppheadcard{
+    font-family: 'Raleway', sans-serif;
+    background-color: lime;
+    border-width: 0cm;
+}
+#skill_card_cpp{
+    background-color:lime;
+    font-family: 'Outfit', sans-serif;
+}
+#photoshopheadcard{
+    font-family: 'Raleway', sans-serif;
+    background-color:darkcyan;
+    border-width: 0cm;
+}
+#skill_card_photoshop{
+    background-color:darkcyan;
+    font-family: 'Outfit', sans-serif;
+}
+#premiereheadcard{
+    font-family: 'Raleway', sans-serif;
+    background-color: lightblue;
+    border-width: 0cm;
+}
+#skill_card_premierepro{
+    background-color:lightblue;
+    font-family: 'Outfit', sans-serif;
+}
+#webdevheadcard{
+    font-family: 'Raleway', sans-serif;
+    background-color: darkorchid;
+    border-width: 0cm;
+}
+#skill_card_webdev{
+    background-color: darkorchid;
+    font-family: 'Outfit', sans-serif;
+}
+/* Faq */
+#faqhead{
+    font-family: 'Raleway', sans-serif;
+}
+#flush-headingOne{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-collapseOne{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-headingTwo{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-collapseTwo{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-headingThree{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-collapseThree{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-headingFour{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-collapseFour{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-headingFive{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-collapseFive{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-headingSix{
+    font-family: 'Outfit', sans-serif;
+}
+#flush-collapseSix{
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Projects */
+#projechead{
+    font-family: 'Raleway', sans-serif;
+}
+#projecttext1{
+    font-family: 'Outfit', sans-serif;
+}
+#project_btn_cpp{
+    background-color:lime;
+    font-family: 'Raleway', sans-serif;
+}
+#project_btn_photoshop{
+    background-color:orange;
+    font-family: 'Raleway', sans-serif;
+}
+#project_btn_premiere{
+    font-family: 'Raleway', sans-serif;
+}
+#project_btn_otherwebdev{
+    background-color:darkorchid;
+    font-family: 'Raleway', sans-serif;
+}
+/* Contact Info */
+#contactinfohead{
+    font-family: 'Raleway', sans-serif;
+}
+#contacttext{
+    font-family: 'Outfit', sans-serif;
+}
+/* MAPS */
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#foot{
+    background-color:black;
+}
